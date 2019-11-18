@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/gochenzl/chess/pb/table"
-	"github.com/gochenzl/chess/util/rpc"
+	"github.com/zhiguochi/chess/pb/table"
+	"github.com/zhiguochi/chess/util/rpc"
 )
 
 func EnterRoom(roomid int32, userid uint32) *table.EnterRoomResp {

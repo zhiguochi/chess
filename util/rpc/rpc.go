@@ -4,9 +4,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/gochenzl/chess/util/buf_pool"
-	"github.com/gochenzl/chess/util/log"
 	"github.com/golang/protobuf/proto"
+	"github.com/zhiguochi/chess/util/buf_pool"
+	"github.com/zhiguochi/chess/util/log"
 )
 
 var remoteServers map[string]*connPoolInfo = make(map[string]*connPoolInfo)

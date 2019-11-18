@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gochenzl/chess/common"
-	"github.com/gochenzl/chess/pb/table"
-	"github.com/gochenzl/chess/util/redis_cli"
+	"github.com/zhiguochi/chess/common"
+	"github.com/zhiguochi/chess/pb/table"
+	"github.com/zhiguochi/chess/util/redis_cli"
 )
 
 type tableInfo struct {

@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gochenzl/chess/codec"
-	"github.com/gochenzl/chess/common"
-	"github.com/gochenzl/chess/server_login/account"
-	"github.com/gochenzl/chess/server_login/config"
-	"github.com/gochenzl/chess/server_login/handler"
-	"github.com/gochenzl/chess/util/log"
-	"github.com/gochenzl/chess/util/redis_cli"
+	"github.com/zhiguochi/chess/codec"
+	"github.com/zhiguochi/chess/common"
+	"github.com/zhiguochi/chess/server_login/account"
+	"github.com/zhiguochi/chess/server_login/config"
+	"github.com/zhiguochi/chess/server_login/handler"
+	"github.com/zhiguochi/chess/util/log"
+	"github.com/zhiguochi/chess/util/redis_cli"
 )
 
 func main() {

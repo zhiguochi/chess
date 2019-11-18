@@ -9,11 +9,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gochenzl/chess/server_center/conn_info"
-	"github.com/gochenzl/chess/server_center/handler"
-	"github.com/gochenzl/chess/util/conf"
-	"github.com/gochenzl/chess/util/log"
-	"github.com/gochenzl/chess/util/rpc"
+	"github.com/zhiguochi/chess/server_center/conn_info"
+	"github.com/zhiguochi/chess/server_center/handler"
+	"github.com/zhiguochi/chess/util/conf"
+	"github.com/zhiguochi/chess/util/log"
+	"github.com/zhiguochi/chess/util/rpc"
 	"github.com/golang/protobuf/proto"
 )
 

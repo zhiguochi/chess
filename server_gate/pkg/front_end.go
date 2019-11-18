@@ -7,10 +7,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/gochenzl/chess/codec"
-	"github.com/gochenzl/chess/common"
-	"github.com/gochenzl/chess/server_gate/connid"
-	"github.com/gochenzl/chess/util/log"
+	"github.com/zhiguochi/chess/codec"
+	"github.com/zhiguochi/chess/common"
+	"github.com/zhiguochi/chess/server_gate/connid"
+	"github.com/zhiguochi/chess/util/log"
 )
 
 func checkTimeoutErr(err error) bool {
